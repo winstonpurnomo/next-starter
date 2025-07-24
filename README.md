@@ -76,7 +76,7 @@ next-starter/
 |   |   ├── layout.tsx          # Layout wrapper
 |   |   ├── providers.tsx       # Providers for all pages
 |   ├── components/             # Reusable components
-|   |   ├── ui/              # shadcn/ui components
+|   |   ├── ui/                 # shadcn/ui components
 |   ├── db/                     # Database schema and config
 |   ├── hooks/                  # Custom React hooks
 |   ├── lib/                    # Client-side utilities
