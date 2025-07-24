@@ -68,15 +68,15 @@ next-starter/
 ├── README.md
 |── src/
 |   ├── app/                    # Next.js App Router pages
-|   ├   |   ├── api/            # API routes -- Auth and ORPC
-|   ├   |   ├── app/            # Authenticated routes
-|   ├   |   ├── login/          # Login page
-|   ├   |   ├── register/       # Register page
-|   ├   |   ├── page.tsx        # Landing page
-|   ├   |   ├── layout.tsx      # Layout wrapper
-|   ├   |   ├── providers.tsx   # Providers for all pages
+|   |   ├── api/                # API routes -- Auth and oRPC
+|   |   ├── app/                # Authenticated routes
+|   |   ├── login/              # Login page
+|   |   ├── register/           # Register page
+|   |   ├── page.tsx            # Landing page
+|   |   ├── layout.tsx          # Layout wrapper
+|   |   ├── providers.tsx       # Providers for all pages
 |   ├── components/             # Reusable components
-|   |   |   ├── ui/             # shadcn/ui components
+|   |   ├── ui/              # shadcn/ui components
 |   ├── db/                     # Database schema and config
 |   ├── hooks/                  # Custom React hooks
 |   ├── lib/                    # Client-side utilities
@@ -89,11 +89,11 @@ next-starter/
 |── biome.jsonc                 # Biome configuration
 ├── components.json             # Shadcn UI configuration
 ├── drizzle.config.ts           # Drizzle configuration
-├── next.config.mjs             # Next.js configuration
+├── next.config.ts              # Next.js configuration
 ├── package.json                # Dependencies
-├── postcss.config.mjs          # PostCSS configuration
+├── postcss.config.json         # PostCSS configuration
 ├── tsconfig.json               # TypeScript configuration
-├── vitest.config.mjs           # Vitest configuration
+├── vitest.config.mts           # Vitest configuration
 ```
 
 To customize the authentication flow, you can modify the `src/server/auth.ts` file, and its corresponding client caller in `src/lib/auth.ts`. Then, run `pnpm run auth:generate` to regenerate the database models.
